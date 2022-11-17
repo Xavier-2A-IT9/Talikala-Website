@@ -1,0 +1,261 @@
+<html>
+
+<head>
+    <title>MAPEH - Montenegro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mainstyle.css">
+    <style>
+        body {
+            overflow-x: hidden;
+            background: #fcf3e1;
+            min-height: 100vh;
+        }
+
+        section::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(to top, #E7E9FF, transparent);
+            z-index: 10;
+        }
+
+        section #text {
+            position: absolute;
+            color: #850E35;
+            font-size: 5vw;
+            text-align: center;
+            line-height: 0.65em;
+            font-family: 'Bodoni Moda', serif;
+            transform: translateY(-50%);
+        }
+
+        .sec {
+            position: relative;
+            padding: 60px;
+            background: #E7E9FF;
+
+        }
+
+        .sec h2 {
+            font-size: 3.5em;
+            color: #b67289;
+            margin-bottom: 10px;
+            text-align: center;
+            font-family: 'Bodoni Moda', serif;
+
+            font-weight: 700;
+        }
+
+        .sec img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer {
+            position: relative;
+            width: 80%;
+            height: 35%;
+            background-color: #9B5161;
+            padding-left: 5%;
+            padding-right: 5%;
+            border-radius: 5%;
+            border-style: dashed;
+            border-color: #ffffff;
+            border-width: thick;
+            margin-top: 30px;
+            margin-left: 175px;
+            margin-right: 175px;
+        }
+
+        .footer-h {
+            font-family: playfair display;
+            font-weight: 500;
+            font-size: 2.5em;
+            color: #F8F9F0;
+            margin-bottom: 10px;
+            padding-left: 300px;
+            padding-top: 30px;
+        }
+
+        .aboutuspics {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            float: left;
+        }
+
+        .desc {
+            font-size: 1.1em;
+            color: #ffffff;
+            text-align: justify;
+            padding-left: 300px;
+            padding-top: 30px;
+        }
+
+        .socials {
+            font-size: 1.1em;
+            color: #ffffff;
+            text-align: justify;
+            padding-left: 300px;
+            padding-top: 10px;
+            text-decoration: underline;
+        }
+
+        .socials a {
+            text-decoration: none;
+            font-family: poppins;
+            font-weight: 400;
+            color: #ffffff;
+            padding: 1px 5px;
+            border-radius: 10px;
+        }
+
+        .socials a:hover,
+        a.active {
+            background: #C29B95;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+    <header id="header">
+        <div class="sidebar open-ed">
+            <span class="closeSB">&times;</span>
+            <h2 align="center">Bibliography</h2>
+            <br><br>
+            <a href="https://www.addu.edu.ph/blog/2018/04/05/talikala-inc-drs-jess-and-trining-de-la-paz-award/">-Drs.
+                Jess and Trining</a>
+            <a href="https://www.facebook.com/womenbonding87/ ">-Talikala FB Page</a>
+            <a href="https://docs.google.com/do	cument/d/1zucUycyGt--4jHdqqLhEmz_Asy3Y7psW_s5qXmKXsqA/edit ">-Talikala
+                Docs</a>
+            <a href="https://addujhs-aosf.my.canva.site/ ">-Ateneo Site</a>
+            <br><br><br>
+            <a href="https://njaes.rutgers.edu/organiclandcare/compost.html">-Compost & Compost Tea</a>
+            <a
+                href="https://learn.eartheasy.com/articles/the-best-compost-tea-recipe-to-help-your-plants-thrive/#:~:text=It%20is%20usually,least%20bi%2Dweekly">-Application
+                of Compost Tea</a>
+            <a
+                href="https://www.epa.gov/recycle/composting-home#:~:text=off%20composting%20program.-,Benefits%20of%20Composting,a%20rich%20nutrient%2Dfilled%20material">-Composting
+                at Home</a>
+            <a href="https://helpmecompost.com/home-composting/benefits/why-is-composting-good-for-plants/">-Compost
+                Good for Plants</a>
+            <br><br>
+            <a href="https://neonhoneytigerlily.com/Editorial-Art-Direction-1">-Editorial Art Direction</a>
+        </div>
+        <span class="toggle">&#9776;</span>
+
+        </div>
+
+        <a href="index.html" class="logo">Group 2A</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project-background.html">Project</a></li>
+            <li><a href="sip.html">SIP</a></li>
+            <li><a href="gallery.html" class="active">GALLERY</a></li>
+        </ul>
+    </header>
+    <section>
+        <h2 id="text">Art Gallery<br><span>Artworks and Behind the Scenes</span></h2>
+        <img src="d4.png" id="d4">
+        <img src="hands4.png" id="hands4">
+        <img src="waves4.png" id="waves4">
+    </section>
+    <div class="sec">
+        <br><br><br><br><br><br>
+        <hr size="10" color="#ca8ca1" width="100%" align="center">
+        <h2>Music Feature Video</h2>
+        <hr size="10" color="#ca8ca1" width="100%" align="center">
+        </hr>   
+        <br><br>
+        <center><video src="https://rr3---sn-npoe7ner.c.drive.google.com/videoplayback?expire=1668660015&ei=7oJ1Y_iZO6SKir4PppCLqA8&ip=110.54.185.95&cp=QVRLWkdfT1BPRlhPOmJPdmctbzZrZ1JKUnRkZkNpZmJfak9hb1Z1ZkRuZTVGQzV2NXJDTnJJTkc&id=6acd84a6cf406ffb&itag=22&source=webdrive&requiressl=yes&sc=yes&ttl=transient&susc=dr&driveid=1GFhuySA8Mr__J_HsYA0Ozmsm1rvEPWSv&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=158.499&lmt=1668642817144893&subapp=DRIVE_WEB_FILE_VIEWER&txp=0016224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIgECnD9YP0V_qDU66T5zOnU9ci0fsNE1xzGN3Pjjr3shwCIQD0khrEp-g7XRYBfjotbvb7KcyRQGX9eoWAi6QXeeNjVg==&cpn=_kF9ZnwjKLQ992Qm&c=WEB_EMBEDDED_PLAYER&cver=1.20221113.00.00&redirect_counter=1&cm2rm=sn-nposy7s&req_id=ac80471fe3c7a3ee&cms_redirect=yes&cmsv=e&mh=LR&mm=34&mn=sn-npoe7ner&ms=ltu&mt=1668645668&mv=m&mvi=3&pl=24&lsparams=mh,mm,mn,ms,mv,mvi,pl,sc&lsig=AG3C_xAwRgIhAOCYmtgEr4u76h3VpGUBZ4JxKDfls4SHkMPEB_qzMGqyAiEA7tBJX_UNXRcCytf8DoXb2WmKrb5FPObWHsD2n93sJN8%3D" controls height="900" width="1600"></video></center>
+        <br><br><br><br>
+        <hr size="10" color="#ca8ca1" width="100%" align="center">
+        <h2>Art Gallery</h2>
+        <hr size="10" color="#ca8ca1" width="100%" align="center">
+        </hr>
+        <br><br>
+
+        <br><br>
+        <img src="1.png" width="1200" height="1000" border="3" vspace="15" hspace="30">
+        <br><br><br><br>
+        <img src="2.png" width="1200" height="1000" border="3" vspace="15" hspace="30">
+        <br><br><br><br>
+        <img src="3.png" width="1200" height="1000" border="3" vspace="15" hspace="30">
+        <br><br>
+        <br<br>
+            <hr size="10" color="#ca8ca1" width="100%" align="center">
+            <h2>Behind The Scenes</h2>
+            <hr size="10" color="#ca8ca1" width="100%" align="center">
+            </hr>
+            <br><br><br><br>
+            <img src="4.png" width="1200" height="1000" border="3" vspace="15" hspace="30">
+            <img src="5.png" width="1200" height="1000" border="3" vspace="15" hspace="30">
+    </div>
+    <div class="footer">
+        <h3 class="footer-h"> About the Web Designer </h3>
+        <img class="aboutuspics" src="juan.png">
+        <p class="desc"> Juan Carlos Montenegro, a.k.a JC, is the resource manager and the main coder of Group 2A, 9
+            Xavier. He was born on May 29, 2008. He is also the photo editor and photographer of the Blue knights.
+            During his spare time, you can find him playing Valorant, Overwatch, CS: GO, and Roblox. A very talented and
+            skilled fellow he is, thus, the group’s backbone when it comes to coding.</p>
+        <p class="socials"> Gmail: jcamontenegro@addu.edu.ph | Facebook:<a
+                href="https://web.facebook.com/juancarlos.montenegro.58367116/">Juan Carlos Montenegro</a></p>
+
+    </div>
+    <br>
+    <script>
+        let text = document.getElementById('text');
+        let d4 = document.getElementById('d4');
+        let hands4 = document.getElementById('hands4')
+        let waves4 = document.getElementById('waves4')
+
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+
+            text.style.top = 35 + value * -0.5 + '%';
+            hands4.style.top = value * -0.12 + 'px';
+            d4.style.top = value * 0.25 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+
+        let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+        const $toggle = document.querySelector(".toggle");
+        const $sidebar = document.querySelector(".sidebar");
+        const $central = document.querySelector(".central");
+        const $closeSB = document.querySelector(".closeSB");
+
+        $toggle.addEventListener("click", () => {
+            $sidebar.classList.toggle("open-ed");
+        });
+
+        $closeSB.addEventListener("click", () => {
+            $sidebar.classList.remove("open-ed");
+        });
+    </script>
+
+</body>
+
+</html>

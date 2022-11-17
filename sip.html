@@ -1,0 +1,408 @@
+<html>
+
+<head>
+    <title>SIP - Lictaoa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mainstyle.css">
+    <style>
+        body {
+            overflow-x: hidden;
+            background: #F6F3E4;
+            min-height: 100vh;
+
+        }
+
+        section::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            z-index: 10;
+        }
+
+        section #text {
+            position: absolute;
+            color: #850E35;
+            font-size: 5vw;
+            text-align: center;
+            line-height: 0.65 em;
+            font-family: 'Libre Bodoni', serif;
+            transform: translateY(-50%);
+        }
+
+        .sec {
+            position: relative;
+            Padding: 100px;
+            Padding-top: 100px;
+            background: #F8F7F2;
+        }
+
+        .sec-2 {
+            Position: relative;
+            Padding: 100px;
+            Background: #F6F3E4;
+        }
+
+        .sec-3 {
+            Position: relative;
+            Padding: 100px;
+            Background: #F8F9F0;
+        }
+
+        .left-h {
+            Font-family: playfair display;
+            Font-weight: 600;
+            Font-size: 50px;
+            Color: #9B516F;
+            Margin-bottom: 10px;
+            Text-align: left;
+        }
+
+        .right-h {
+            Font-family: 'playfair display';
+            Font-weight: 600;
+            Font-size: 50px;
+            Color: #9B516F;
+            Margin-bottom: 10px;
+            Text-align: right;
+        }
+
+        .left {
+            Font-size: 23px;
+            Color: #9B516F;
+            Text-align: justify;
+            Padding-right: 300px;
+
+        }
+
+        .left-2 {
+            Font-size: 23px;
+            Color: #9B516F;
+            Text-align: justify;
+            Padding-right: 300px;
+            padding-left: 300px;
+            text-align: center;
+        }
+
+        .right {
+            Font-size: 23px;
+            Color: #9B516F;
+            Text-align: right;
+            Padding-left: 300px;
+        }
+
+        .floatRight {
+            float: right;
+            margin-left: 20px;
+            height: 500px;
+        }
+
+        .floatright-2 {
+            float: right;
+            margin-left: 20px;
+            height: 700px;
+        }
+
+        .footer {
+            position: relative;
+            width: 80%;
+            height: 35%;
+            background-color: #9B5161;
+            padding-left: 5%;
+            padding-right: 5%;
+            border-radius: 5%;
+            border-style: dashed;
+            border-color: #ffffff;
+            border-width: thick;
+            margin-top: 30px;
+            margin-left: 175px;
+            margin-right: 175px;
+        }
+
+        .footer-h {
+            font-family: playfair display;
+            font-weight: 500;
+            font-size: 2.5em;
+            color: #F8F9F0;
+            margin-bottom: 10px;
+            padding-left: 300px;
+            padding-top: 30px;
+        }
+
+        .aboutuspics {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            float: left;
+        }
+
+        .desc {
+            font-size: 1.1em;
+            color: #ffffff;
+            text-align: justify;
+            padding-left: 300px;
+            padding-top: 30px;
+        }
+
+        .socials {
+            font-size: 1.1em;
+            color: #ffffff;
+            text-align: justify;
+            padding-left: 300px;
+            padding-top: 10px;
+            text-decoration: underline;
+        }
+
+        .socials a {
+            text-decoration: none;
+            font-family: poppins;
+            font-weight: 400;
+            color: #ffffff;
+            padding: 1px 5px;
+            border-radius: 10px;
+        }
+
+        .socials a:hover,
+        a.active {
+            background: #C29B95;
+            color: #fff;
+        }
+
+        .img {
+            margin-left: 20px;
+            height: 400px;
+            float: center;
+            border: 8px solid #849684;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+    <header id="header">
+        <div class="sidebar open-ed">
+            <span class="closeSB">&times;</span>
+            <h2 align="center">Bibliography</h2>
+            <br><br>
+            <a href="https://www.addu.edu.ph/blog/2018/04/05/talikala-inc-drs-jess-and-trining-de-la-paz-award/">-Drs.
+                Jess and Trining</a>
+            <a href="https://www.facebook.com/womenbonding87/ ">-Talikala FB Page</a>
+            <a href="https://docs.google.com/do	cument/d/1zucUycyGt--4jHdqqLhEmz_Asy3Y7psW_s5qXmKXsqA/edit ">-Talikala
+                Docs</a>
+            <a href="https://addujhs-aosf.my.canva.site/ ">-Ateneo Site</a>
+            <br><br><br>
+            <a href="https://njaes.rutgers.edu/organiclandcare/compost.html">-Compost & Compost Tea</a>
+            <a
+                href="https://learn.eartheasy.com/articles/the-best-compost-tea-recipe-to-help-your-plants-thrive/#:~:text=It%20is%20usually,least%20bi%2Dweekly">-Application
+                of Compost Tea</a>
+            <a
+                href="https://www.epa.gov/recycle/composting-home#:~:text=off%20composting%20program.-,Benefits%20of%20Composting,a%20rich%20nutrient%2Dfilled%20material">-Composting
+                at Home</a>
+            <a href="https://helpmecompost.com/home-composting/benefits/why-is-composting-good-for-plants/">-Compost
+                Good for Plants</a>
+            <br><br>
+            <a href="https://neonhoneytigerlily.com/Editorial-Art-Direction-1">-Editorial Art Direction</a>
+        </div>
+        <span class="toggle">&#9776;</span>
+
+        </div>
+        <a href="index.html" class="logo">Group 2A</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project-background.html">Project</a></li>
+            <li><a href="sip.html" class="active">SIP</a></li>
+            <li><a href="gallery.html">GALLERY </a></li>
+        </ul>
+    </header>
+
+    <section>
+        <h2 id="text">Science Investigatory Project<br><span>Effectivity of Compost Tea and Mulch Method on Solanum
+                Lycopersicum Height</span></h2>
+        <img src="overlay2.png" id="overlay2">
+        <img src="overlay1.png" id="overlay1">
+        <img src="overlay4.png" id="overlay4">
+        <img src="overlay3.png" id="overlay3">
+
+    </section>
+
+
+
+    </div>
+    <div class="sec">
+
+        <img src="tmt1.png" class="floatRight">
+        <h2 class="left-h">I. Background and Significance of the Study</h2>
+        <p class="left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our investigatory project revolves around compost — an
+            organic fertilizer that increases the
+            growth of various crops — and the effectivity of its various methods. Compost on its own is very beneficial
+            as it enhances the soil by encouraging fungi and bacteria to create nutritious material for plants,
+            therefore improving plant growth. This is taken up a notch as well since compost is also used to enhance
+            reforestation, marginal soils, wetlands restoration, and habitat revitalization initiatives, making compost
+            very impactful towards our environment. Going back to our investigatory project, exploring different methods
+            of composting could ultimately help us know what method is most effective to optimize a plant's growth and
+            condition, and by highlighting the importance of assessing the situation and offering solutions, this can
+            inspire community members — the intended beneficiaries — to get involved.
+
+            <br><br><br>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our partner institution, Talikala, Inc., is a non-profit organization
+            that aims to establish a safe space
+            for victimized women and children to help them improve their quality of life through offered services and
+            programs. Their mission to do so may be difficult to fulfill due to the lack of funds to cater to their
+            basic needs, and thus poses a threat to their food availability, especially at this time of the COVID
+            pandemic. Our research proposal investigates different methods of composting, assessed upon the tomato
+            plant, which could offer the community a suitable method that would consider their given situation to help
+            them save time and money, as well as grow their own fresh and healthy crops. This can ultimately be
+            beneficial for them as it addresses their issue of scarce food assistance, and at the same time promotes
+            sustainability in their community.
+
+        </p><br><br><br>
+
+
+        <h2 class="left-h">II. Problem Statement</h2>
+        <p class="left">
+            Which method of compost application (i.e., mulching compost on the soil of the plant <br> and using compost
+            tea) is the most effective for the tomato plant’s (Solanum lycopersicum) height?</p><br><br><br><br><br>
+        <h2 class="right-h">III. Hypothesis</h2>
+        <p class="right">If the method of mulching or spreading compost on the soil of the plant is applied,<br> then
+            the tomato plant will grow taller.</P><br><br>
+    </div>
+
+    <div class="sec-2">
+        <img src="hhjgj.png" class="floatright-2">
+        <h2 class="left-h">IV. Methodology</h2><br>
+        <p class="left">
+            <b>A. Variables
+        </p><br></b>
+        <p class="left">
+            <I>Independent Variable: </I> The specific method used in applying compost to the soil of the plant
+            <br>(mulch method and compost tea method)
+            <br><br>
+            <I>Dependent Variable/s: </I> Height of the tomato plant, Growth Rate of the tomato plant
+            <br><br>
+            <I>Controlled Variable/s: </I> Type/variety of tomato seeds used, quantity of tomato seeds in each pot,
+            amount of water used to hydrate the plants, quantity and size of container/pots, temperature of the area,
+            <br>amount of sunlight exposure, amount and type of soil in each pot. <br><br>
+        </p>
+        <p class="left">
+            <br><br><br>
+            <b>B. Treatments/Set-ups</b><br>
+
+            <br>
+            The <I>control set-up </I> consists of our tomato plant, or seedling technically, without any additives to
+            its soil. <br>Our independent variable, which is the method used in applying our compost to the soil of the
+            plant, is not applicable for this is a controlled set-up, meaning there is no addition of compost to the
+            soil of this particular tomato plant.<br><br>
+
+            <I>Experimental set-up 1 </I> is where we will utilize the mulching method of compost application to the
+            tomato plant. We will be adding a 1-2 cm layer of our compost to the soil’s surface once every two weeks, as
+            part of our independent variable.<br><br>
+
+            <I>Experimental set-up 2 </I>, this time, is where we will utilize the compost application method of compost
+            tea. <br> After creating the compost tea mixture, we will be applying half a gallon of it onto the soil <br>
+            and root area of the plant once every two weeks for proper nutrition.<br> <br>
+            There will be 5 replicates per set-up.
+
+            <br><br><br>
+
+        <h1 align="center">
+            <center><img src="c1.png" width="500" height="400">
+                <img src="e1.png" width="500" height="400">
+                <img src="e2.png" width="500" height="400">
+            </center>
+        </h1>
+        </p>
+        <p class="left">
+            <br><br>
+
+        </p>
+    </div>
+
+    <div class="sec-3">
+        <h2 class="left-h">V. Documentation</h2><br>
+        <center>
+            <img src="eggtray.png" class="img">
+            <img src="eggtray2.png" class="img">
+            <img src="eggsoil.png" class="img">
+
+            <p class="left-2">Our experiment starts with the germination of seeds. In order to do this, we used an egg
+                tray or a seedling tray. First, we filled up the holes with loam soil, then dug a hole in the middle of
+                the soil for the seed (one seed per hole). We will then water the seeds everyday and leave them under
+                indirect sunlight or under a shade for 1 week.
+            </p>
+            <br><br>
+            <img src="ingredients.jpg" class="img">
+            <img src="compost.jpg" class="img">
+            <p class="left-2">Our compost includes eggshells, fruit scraps, vegetable scraps, newspapers, dried leaves,
+                and loam soil. After we used a bucket to combine all these ingredients, we will leave this outside for
+                4-8 weeks or until it decomposes.</p>
+        </center>
+
+        </p>
+    </div>
+    <div class="footer">
+        <h3 class="footer-h"> About the Web Designer </h3>
+        <img class="aboutuspics" src="daphne.png">
+        <p class="desc"> Daphne Marie A. Lictaoa, also known as Daph, is one of the five members of Group 2A, 9 -
+            Xavier, and the assistant manager of the team. She was born on December 20, 2007. Her hobbies include
+            watching movies, reading books, listening to music, and eating. She enjoys hanging out with a small crowd of
+            friends and treasures them wholeheartedly. Usually timid and introverted, though fun once you get to know
+            her.</p>
+        <p class="socials"> Gmail: dmalictaoa@addu.edu.ph | Facebook:<a
+                href="https://web.facebook.com/daphne.lictaoa">Daphne Lictaoa </a></p>
+
+    </div>
+    <br>
+    <script>
+        let text = document.getElementById('text');
+        let overlay2 = document.getElementById('overlay2');
+        let overlay1 = document.getElementById('overlay1')
+        let overlay3 = document.getElementById('overlay3')
+
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+
+            text.style.top = 35 + value * -0.5 + '%';
+            overlay3.style.top = value * -0.12 + 'px';
+            overlay2.style.top = value * 0.25 + 'px';
+            overlay1.style.top = value * 0.25 + 'px';
+            overlay4.style.top = value * 0.25 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+
+        let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+        const $toggle = document.querySelector(".toggle");
+        const $sidebar = document.querySelector(".sidebar");
+        const $central = document.querySelector(".central");
+        const $closeSB = document.querySelector(".closeSB");
+
+        $toggle.addEventListener("click", () => {
+            $sidebar.classList.toggle("open-ed");
+        });
+
+        $closeSB.addEventListener("click", () => {
+            $sidebar.classList.remove("open-ed");
+        });
+    </script>
+</body>
+
+</html>
